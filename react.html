@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="react.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        // Shorthand for $( document ).ready()
+     $(function() {
+    
+          $(".toggle").on("click",function(){
+            if($(".item").hasClass("active")){
+                $(".item").removeClass("active");
+            }
+            else{
+                $(".item").addClass("active");
+            }
+          })
+
+     });
+
+    </script>
+    <title>React</title>
+
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="#">Alone</a></li>
+            <li class="item"><a href="first.html">Home</a></li>
+            <li class="item"><a href="#">About</a></li>
+            <li class="item"><a href="login.html">Services</a></li>
+            <li class="item button"><a href="login2.html">Login</a></li>
+            <li class="item button secondry"><a href="news.html">Sign Up</a></li>
+            <li class="toggle"><span class="bars"></span></li>
+        </ul>
+    </nav>
+    <main>
+        <a href="">youtube</a>
+    </main>
+</body>
+</html>
