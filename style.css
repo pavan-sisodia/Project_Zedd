@@ -127,10 +127,6 @@ label {
   margin-left: 30px;
 }
 
-label.logo {
-  font-size: 60px;
-}
-
 label::before {
   content: ' \f00c';
   position: absolute;
